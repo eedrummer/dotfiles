@@ -6,6 +6,6 @@ These are the dotfiles that I use to configure my environment. As a starting poi
 Installation
 ------------
 
-  git clone git://github.com/eedrummer/dotfiles.git
-  cd dotfiles
-  rake install
+    git clone git://github.com/eedrummer/dotfiles.git
+    cd dotfiles
+    rake install
