@@ -12,7 +12,9 @@ set number
 set autoindent
 set directory=/tmp " Don't clutter my dirs up with swp and tmp files
 set shiftround
+set expandtab
 set shiftwidth=2
+set softtabstop=2
 set smarttab
 
 
