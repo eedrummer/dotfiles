@@ -1,4 +1,4 @@
-map <leader>t :FuzzyFinderTextMate<CR>
+call pathogen#runtime_append_all_bundles() 
 
 " Map control space to auto-complete
 inoremap <expr> <C-Space> pumvisible() \|\| &omnifunc == '' ?
@@ -33,6 +33,8 @@ augroup END
 augroup mkd
 
   autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
+  autocmd BufRead *.mk  set ai formatoptions=tcroqn2 comments=n:&gt;
+  autocmd BufRead *.mdown  set ai formatoptions=tcroqn2 comments=n:&gt;
 
 augroup END
 
