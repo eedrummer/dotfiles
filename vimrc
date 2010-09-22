@@ -24,6 +24,10 @@ set smarttab
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
 
+" Show whitespace like TextMate
+set list
+set listchars=tab:▸\ ,eol:¬
+
 " Set up syntax highlighting for Pig scripts
 augroup filetypedetect 
   au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
