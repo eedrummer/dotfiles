@@ -31,6 +31,7 @@ set listchars=tab:▸\ ,eol:¬
 " Set up syntax highlighting for Pig scripts
 augroup filetypedetect 
   au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
+  au BufNewFile,BufRead *.json set filetype=json syntax=json
 augroup END 
 
 " Set up syntax highlighting for Markdown files
@@ -41,4 +42,3 @@ augroup mkd
   autocmd BufRead *.mdown  set ai formatoptions=tcroqn2 comments=n:&gt;
 
 augroup END
-
